@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form id="formData">
+        <input type="text" placeholder="Title" id="title">
+        <br>
+        <input type="text" placeholder="Description" id="description">
+        <br>
+        <select id="brand">
+            <option value="">Select Brand</option>
+            <option value="Apple">Apple</option>
+            <option value="Samsung">Samsung</option>
+            <option value="Oneplus">Oneplus</option>
+            <option value="Xiaomi">Xiaomi</option>
+        </select>
+        <br>
+        <input type="number" placeholder="Price" id="price">
+        <br>
+        <input type="url" placeholder="Image URL" id="img">
+        <br>
+        <input type="submit">
+    </form>
+    <table border="1">
+        <tbody>
+            <tr>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Brand</th>
+                <th>Price</th>
+                <th>Image</th>
+                <th>Delete ALL</th>
+            </tr>
+        </tbody>
+        <tbody id="data"></tbody>
+     
+    </table>
+    <script src="index.js"></script>
+</body>
+
+</html>
